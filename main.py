@@ -156,7 +156,7 @@ def get_data(prkey, tier):
 
     while True:
         try:
-            url = f'https://backend.impossible.finance/api/backend-service/allocation/icn?address={main_acc.address}&tierId={SMART_CONTRACTS['Names'][f'tier-{tier}']}'
+            url = f'https://backend.impossible.finance/api/backend-service/allocation/icn?address={main_acc.address}&tierId={SMART_CONTRACTS["Names"][f"tier-{tier}"]}'
 
             json_data = {
                 'address':f'{main_acc.address}',
