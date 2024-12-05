@@ -161,7 +161,7 @@ def get_data(prkey, tier):
             json_data = {
                 'address':f'{main_acc.address}',
                 'saleAddress':f'{SMART_CONTRACTS[f"Address"]}',
-                'tierId':f'{SMART_CONTRACTS['Names'][f'tier-{tier}']}',
+                'tierId':f'{SMART_CONTRACTS["Names"][f"tier-{tier}"]}',
             }
             json_data = json.dumps(json_data)
 
