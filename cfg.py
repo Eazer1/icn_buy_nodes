@@ -1,4 +1,4 @@
-NODE_RPC = 'https://rpc.ankr.com/arbitrum/f11a58d1a95563dfe0a39af11f1189efcd942fca8f2b71aacae5f52a7b8873e6'
+NODE_RPC = 'https://rpc.ankr.com/arbitrum'
 
 SMART_CONTRACTS = {
     'Address':'0xB02EB8a7ed892F444ED7D51c73C53250Ab8d754E',
