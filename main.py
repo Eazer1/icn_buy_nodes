@@ -196,16 +196,15 @@ def start(prkey, tier, amount):
 
     logger.info(f'[{main_acc.address}] Wait 60 seconds before starting to retrieve transaction data | Ожидаем 60 секунд до старта, чтобы получить данные транзакции')
     while True:
-        if time.time() > 1731499200 - 60:
+        if time.time() > 1733392800 - 60:
             break
         else: time.sleep(0.5)
 
-    #ПОЛУЧАЕМ СИГНАТУРУ
     data = get_data(prkey, tier)
 
     logger.info(f'[{main_acc.address}] Waiting 5 seconds for the sale to start | Ожидаем 5 секунд до старта')
     while True:
-        if time.time() > 1731499200 - 5:
+        if time.time() > 1733392800 - 5:
             break
         else: time.sleep(0.5)
 
